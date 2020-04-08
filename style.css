@@ -1,0 +1,145 @@
+
+body{
+	margin-top:5%;
+}
+.main{
+	width:420px;
+	margin: 5% auto;
+	height:100%;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+.menu{
+	background-color:#26a5d4;
+	color:white;
+	display:flex;
+}
+.grad{
+	flex-grow:4;
+	text-align:left;
+	margin-left:20px;
+	margin-top:10px;
+}
+.sign{
+	flex-grow:4;
+	text-align:center;
+	margin-right:15px;
+}
+.close{
+	flex-grow:4;
+	text-align:right;
+	margin-right:20px;
+}
+.close a{
+	color:white;
+}
+.textfield{
+	width:100%;
+}
+.mail{
+	text-align:left;
+	padding-left:2%;        
+	padding-right:10%;          
+	background-color:white;
+	margin:2% 5% 2% 5%;
+	width:85%;	
+	height:6%;
+}
+.pwd{
+	text-align:left;
+	margin:2% 5% 2% 5%;
+	padding-left:2%;
+	padding-right:10%;
+	width:85%;
+	height:6%;
+}
+
+.textfield { position:relative; }
+.textfield input{ text-indent:30px;}
+.textfield .fa-envelope { 
+  position: absolute;
+  top: 13%;                  /*24px;*/
+  right:  11%;                  /* 47px;*/
+  font-size: 15px;
+}
+.textfield .fa-unlock-alt { 
+  position: absolute;
+  top: 42%;                      /*75px;*/
+  right: 11%;                   /* 47px;*/
+  font-size: 20px;
+}
+
+.textfield{
+	 text-align:center;
+	 margin-top:5%;
+}
+.signin{
+	 width:85%;
+	 background-color:#26a5d4;
+	 color:white;
+	 height:6%;
+	 margin-top: 8%;                  /*30px;*/
+	 border-radius:5px;
+}
+.pass{
+	display:flex;
+	color:#d437bf;
+}
+.for{
+	flex-grow:4;
+	text-align:left;
+	padding-left:8%;                    /*35px;*/
+	margin: 2% 0% 5% 0%;                      /* 15px 0px;*/
+	font-family:Helvetica, sans-serif;
+	font-size:14px;
+}
+.reg{
+	flex-grow:4;
+	text-align:right;
+	padding-right:8%;                    /*35px;*/
+	margin:2% 0% 5% 0%;
+	font-family:Helvetica, sans-serif;
+	font-size:14px;
+}
+.for a,.reg a{
+	text-decoration:none;
+	color:black;
+}
+.or{
+	display:flex;
+	margin:4% 0% 8% 0%;
+}
+
+.face{
+	 width:85%;
+	 font-size:20px;
+	 background-color:#3b5998;
+	 color:white;
+	 height:6%;
+	 margin:2% 8% 2% 8%;
+	 border-radius:5px;
+}
+
+.goog{
+	 width:85%;
+	 font-size:20px;
+	 background-color:#db4a39;
+	 color:white;
+	 height:6%;
+	 margin:2% 8% 10% 8%;
+	 border-radius:5px;
+	
+}
+.login{
+	 width:85%;
+	 background-color:#ebdf0c;
+	 font-size:20px;
+	 color:white;
+	 height:6%;
+	 border-radius:5px;
+	 margin:0 8%;
+ }
+
+
+
+
